@@ -1,0 +1,8 @@
+@import "variables.scss";
+@import "reset.scss";
+
+body {
+	font-family: var(--roboto-flex-font);
+	font-weight: $fw-regular;
+	height: 100vh;
+}
