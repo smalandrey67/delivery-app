@@ -1,0 +1,29 @@
+@import "@/styles/variables";
+@import "@/styles/mixins";
+
+.shop {
+	background: $dark-100;
+	border-radius: 10px;
+	height: 60px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-size: $fs-big;
+	color: $light-200;
+	text-transform: capitalize;
+	cursor: pointer;
+
+	@include isHover() {
+		transition: background $transition-time ease;
+
+		&:hover {
+			background: $dark-200;
+		}
+	}
+
+	&:not(:last-child) {
+		margin-bottom: 15px;
+	}
+}

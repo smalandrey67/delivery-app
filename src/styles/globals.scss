@@ -4,5 +4,12 @@
 body {
 	font-family: var(--roboto-flex-font);
 	font-weight: $fw-regular;
+	background: $dark-300;
 	height: 100vh;
+}
+
+.container {
+	max-width: 1230px;
+	padding: 0 15px;
+	margin: 0 auto;
 }

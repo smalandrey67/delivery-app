@@ -1,7 +1,8 @@
 import { withLayout } from "@/Layout/Layout";
+import { ShoppingCartScreen } from "@/screens/ShoppingCartScreen/ShoppingCartScreen";
 
 function ShoppingCart(): JSX.Element {
-	return <div>shopping cart page</div>;
+	return <ShoppingCartScreen />;
 }
 
 export default withLayout({

@@ -1,7 +1,8 @@
 import { withLayout } from "@/Layout/Layout";
+import { ShopScreen } from "@/screens/ShopScreen/ShopScreen";
 
 function Shop(): JSX.Element {
-	return <div>shop page</div>;
+	return <ShopScreen />;
 }
 
 export default withLayout({

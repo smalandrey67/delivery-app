@@ -18,6 +18,7 @@
 		"paths": {
 			"@/common*": ["app/components/common*"],
 			"@/containers*": ["app/components/containers*"],
+			"@/ui*": ["app/components/ui*"],
 			"@/Layout/*": ["app/Layout/*"],
 			"@/screens/*": ["app/screens/*"],
 			"@/modules/*": ["app/modules/*"],
