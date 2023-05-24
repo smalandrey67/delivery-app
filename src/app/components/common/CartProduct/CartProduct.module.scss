@@ -1,0 +1,40 @@
+@import "@/styles/variables";
+
+.cartProduct {
+	&Image {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+
+		&Wrapper {
+			position: relative;
+			width: 100px;
+			height: 180px;
+			width: 100%;
+			border-radius: 10px;
+			overflow: hidden;
+		}
+	}
+
+	&Body {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 20px;
+	}
+
+	&Info {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&Title {
+		margin: 0 0 10px 0;
+		color: $light-200;
+	}
+
+	&Price {
+		color: $light-200;
+		font-weight: $fw-bold;
+		margin-bottom: 10px;
+	}
+}

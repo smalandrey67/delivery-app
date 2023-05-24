@@ -1,0 +1,9 @@
+.ordering {
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: 25px 10px;
+
+	> label:not(:last-child) {
+		margin-bottom: 15px;
+	}
+}

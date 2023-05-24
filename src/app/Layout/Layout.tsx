@@ -18,10 +18,14 @@ export function Layout({ children, ...metaProps }: LayoutProps): JSX.Element {
 				<Header />
 				<main>
 					<div className="container">
-						<div className={styles.layoutWrapper}>
-							{["/", "/shop/[name]"].includes(router.pathname) && <Shops />}
-							{children}
-						</div>
+						{["/", "/shop/[name]"].includes(router.pathname) ? (
+							<div className={styles.layoutWrapper}>
+								<Shops />
+								{children}
+							</div>
+						) : (
+							<>{children}</>
+						)}
 					</div>
 				</main>
 			</div>

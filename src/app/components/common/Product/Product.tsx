@@ -16,7 +16,7 @@ export function Product(): JSX.Element {
 				/>
 			</div>
 			<h4 className={styles.productTitle}>Big Burger</h4>
-			<Button />
+			<Button>Add to Cart</Button>
 		</article>
 	);
 }
