@@ -1,12 +1,12 @@
 import { withLayout } from "@/Layout/Layout";
-import { ShopScreen } from "@/screens/ShopScreen/ShopScreen";
+import { HomeScreen } from "@/screens/HomeScreen/HomeScreen";
 
-function Shop(): JSX.Element {
-	return <ShopScreen />;
+function Home(): JSX.Element {
+	return <HomeScreen />;
 }
 
 export default withLayout({
-	Component: Shop,
-	pageTitle: "Shop",
-	pageDescription: "This is the page where you can find any goods that you want "
+	Component: Home,
+	pageTitle: "Home",
+	pageDescription: "This is the page where you can choose any of the shop"
 });

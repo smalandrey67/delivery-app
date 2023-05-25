@@ -1,3 +1,5 @@
+@import "@/styles/variables";
+
 .ordering {
 	border: 1px solid white;
 	border-radius: 10px;
@@ -5,5 +7,10 @@
 
 	> label:not(:last-child) {
 		margin-bottom: 15px;
+	}
+
+	&Price {
+		color: $light-200;
+		text-transform: capitalize;
 	}
 }

@@ -18,7 +18,7 @@ export function CartProduct(): JSX.Element {
 				<div className={styles.cartProductInfo}>
 					<h4 className={styles.cartProductTitle}>Big Burger</h4>
 					<span className={styles.cartProductPrice}>Price: 888</span>
-					<input type="number" />
+					<input type="number" className={styles.cartProductCount} name="counter" />
 				</div>
 			</div>
 		</article>

@@ -37,4 +37,11 @@
 		font-weight: $fw-bold;
 		margin-bottom: 10px;
 	}
+
+	&Count {
+		font-size: $fs-big;
+		border: none;
+		outline: none;
+		width: 150px;
+	}
 }
