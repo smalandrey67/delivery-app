@@ -15,6 +15,12 @@
 	text-transform: capitalize;
 	cursor: pointer;
 
+	&Disabled {
+		pointer-events: none;
+		cursor: not-allowed;
+		opacity: 0.5;
+	}
+
 	@include isHover() {
 		transition: background $transition-time ease;
 
